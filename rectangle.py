@@ -20,7 +20,7 @@ class Rectangle:
         return self.__a * self.__b
     
     def get_obvod(self):
-        return 2 * (self.__a * self.__b)
+        return 2 * (self.__a + self.__b)
     
 r = Rectangle(10, 20)
 print("Obsah:", r.get_obsah())
