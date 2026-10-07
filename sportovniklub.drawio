@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Stránka-1" id="9hyZs6cbmyNf4u-_z2G1">
+    <mxGraphModel dx="1537" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KYf_sMGtcdSYNeosLJW5-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="E:clen" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="clen" vertex="1">
+          <mxGeometry height="200" width="200" x="590" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-3" parent="kreTNwqNPAXF-yxIubNX-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ID_CLENA" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-4" parent="kreTNwqNPAXF-yxIubNX-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JMENO" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-5" parent="kreTNwqNPAXF-yxIubNX-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PRIJMENI" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-6" parent="kreTNwqNPAXF-yxIubNX-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DATUM_PRIHLASENI" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-8" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0101" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="620" />
+            </Array>
+            <mxPoint x="640" y="640" as="sourcePoint" />
+            <mxPoint x="690" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="V:&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;prihlaseni&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="460" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="kreTNwqNPAXF-yxIubNX-9" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0089" y="1.16" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="440" />
+            </Array>
+            <mxPoint x="690" y="525" as="sourcePoint" />
+            <mxPoint x="740" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-13" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="M:N" vertex="1">
+          <mxGeometry height="30" width="80" x="480" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="V:vedeni kurzu" vertex="1">
+          <mxGeometry height="80" width="80" x="460" y="529" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="E:trener" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="trener" vertex="1">
+          <mxGeometry height="200" width="200" x="390" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-17" parent="kreTNwqNPAXF-yxIubNX-16" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ID_TRENERA" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-18" parent="kreTNwqNPAXF-yxIubNX-16" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SPECIALIZACE" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-19" parent="kreTNwqNPAXF-yxIubNX-16" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JMENO" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-20" parent="kreTNwqNPAXF-yxIubNX-16" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PRIJMENI" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-22" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.428;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" target="kreTNwqNPAXF-yxIubNX-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="790" as="sourcePoint" />
+            <mxPoint x="510" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1:M" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-25" edge="1" parent="1" source="kreTNwqNPAXF-yxIubNX-15" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="660" as="sourcePoint" />
+            <mxPoint x="500" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="E: kurz" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-27" edge="1" parent="1" source="kreTNwqNPAXF-yxIubNX-9" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="kreTNwqNPAXF-yxIubNX-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="450" as="sourcePoint" />
+            <mxPoint x="420" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-28" edge="1" parent="1" source="kreTNwqNPAXF-yxIubNX-14" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="kreTNwqNPAXF-yxIubNX-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="570" as="sourcePoint" />
+            <mxPoint x="440" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-29" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="kurz" vertex="1">
+          <mxGeometry height="200" width="200" x="120" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-30" parent="kreTNwqNPAXF-yxIubNX-29" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ZACATEK" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-31" parent="kreTNwqNPAXF-yxIubNX-29" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="KONEC" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-32" parent="kreTNwqNPAXF-yxIubNX-29" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MAX_POCET_CLENU" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="E = entity" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kreTNwqNPAXF-yxIubNX-34" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="V = vztahy" vertex="1">
+          <mxGeometry height="80" width="80" x="660" y="301" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
